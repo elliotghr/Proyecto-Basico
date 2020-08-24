@@ -1,0 +1,304 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 576px) { 
+
+		/* 							NAV 							*/
+		nav{
+			height: 18vh;
+		}
+
+		nav figure{
+			display: inline-block;
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+
+		figure img{
+			height: 8vh;
+		}
+		.logo{
+			height: 12vh;
+		}
+		/* 							MAIN 							*/
+
+		h1{
+			padding-top: 22vh;
+			font-size: 3rem;
+		}
+		h2{
+			padding-top: 20vh;
+		}
+		.imagen{
+			height: 50vh;
+			width: 75vw;
+			padding-left: 15%;
+		}
+		.fondo_acerca{
+			position: relative;
+			left: 22%;
+			height: 200px;
+			width: 60%;
+			background-image: url(../img/4389.jpg);
+			background-size: 110%, 100%;
+			padding-bottom: -10px;
+		}
+
+		.fondo_resumen{
+			position: relative;
+			left: 22%;
+			height: 200px;
+			width: 60%;
+			padding-left: 5%;
+			padding-top: 10%;
+			text-align: center;
+			background-image: url(../img/4389.jpg);
+			background-size: 110%, 100%;
+			padding-bottom: -10px;
+		}
+		.fondo_curio{
+			position: relative;
+			left: 15%;
+			height: 200px;
+			width: 70%;
+			padding-left: 5%;
+			padding-top: 5%;
+			text-align: center;
+			background-image: url(../img/4389.jpg);
+			background-size: 110%, 100%;
+			padding-bottom: -10px;
+		}
+
+		.fondo_form{
+			position: relative;
+			left: 22%;
+			height: 280px;
+			width: 60%;
+		}
+		.imagen_resumen{
+		height: 40vh;
+		width: 60vw;
+		position: relative;
+		left: 20%;
+		margin-top: 50px;
+
+		}
+
+		.imagen_curio{
+		height: 40vh;
+		width: 60vw;
+		position: relative;
+		left: 20%;
+		margin-top: 50px;
+
+		}
+
+	}
+
+	iframe{
+		height: 60vh;
+		width: 90vw;
+	}
+	/* 							FOOTER 							*/
+	footer div p{
+		padding: 0;
+		padding-top: 1.5vh;
+	}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 767px) { 
+	nav{
+		height: 15vh;
+	}
+	a{
+		font-size: 1.1rem;
+	}
+	figure img{
+		height: 9vh;
+	}
+	.logo{
+		height: 13vh;
+	}
+
+	h1{
+		font-size: 4.4rem;
+		padding-top: 10%;
+	}
+	h2{
+		font-size: 2.5rem;
+	}
+	.contenedor{
+		width: 80vw;
+		margin-left: 10%;
+
+	}
+
+	.fondo_acerca{
+		height: 20%;
+	}
+
+	.imagen{
+		width: 80vw;
+		padding: 0;
+		margin-left: 0;
+		height: 35vh;
+	}
+	.imagen_resumen{
+		height: 30vh;
+		width: 80vw;
+		position: relative;
+		left: 10%;
+		margin-top: 50px;
+
+	}
+	iframe{
+		height: 30vh;
+		width: 100%;
+	}
+
+	.imagen_curio{
+		height: 30vh;
+		width: 80vw;
+		position: relative;
+		left: 10%;
+		margin-top: 50px;
+
+	}
+	footer div p{
+		padding: 0;
+		padding-top: 4%;
+		font-size: 1.3rem;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 830px) { 
+	nav figure{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.fondo{
+		height: 200px;
+
+	}
+
+	.fondo li{
+		text-align: center;
+	}
+	.imagen{
+		height: 350px;
+		width: 80%;
+		position: relative;
+		left: 10%;
+		margin-top: 40px
+	}
+	.imagen_resumen{
+		height: 40vh;
+		width: 70vw;
+		position: relative;
+		left: 15%;
+		margin-top: 40px;
+	}
+
+	iframe{
+		width: 80%;
+		height: 45vh;
+		position: relative;
+		left: 10%;
+	}
+
+	.imagen_curio{
+		height: 40vh;
+		width: 70vw;
+		position: relative;
+		left: 15%;
+		margin-top: 40px;
+	}
+
+	.fondo_resumen{
+		padding: 50px;
+		display: inline-block;
+
+	}
+		.fondo_acerca{
+		padding: 50px;
+		display: inline-block;
+
+	}
+
+	footer div p{
+		position: relative;
+		bottom: 20px;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	h1{
+		padding-top: 10vh;
+	}
+
+	.fondo_acerca{
+		width: 30vw;
+		display: inline-block;
+		position: relative;
+		bottom: 10vh;
+		left: 10%;
+		padding: 50px;
+		background-image: url(../img/4389.jpg);
+		background-size: 100%, 100%;
+		display: inline-block;
+	}
+
+	.fondo_resumen{
+		width: 30vw;
+		display: inline-block;
+		position: relative;
+		bottom: 10vh;
+		left: 18%;
+		padding: 50px;
+		background-image: url(../img/4389.jpg);
+		background-size: 100%, 100%;
+		display: inline-block;
+
+	}
+	.fondo_curio{
+		width: 30vw;
+		display: inline-block;
+		position: relative;
+		bottom: 10vh;
+		left: 18%;
+		padding: 50px;
+		background-image: url(../img/4389.jpg);
+		background-size: 100%, 100%;
+		display: inline-block;
+
+	}
+	.imagen{
+		height: 40vh;
+		left: 10vw;
+	}
+
+	.imagen_resumen{
+		display: inline-block;
+		width: 40%;
+		left: 20%;
+		bottom: 4vh;
+	}
+	.imagen_curio{
+		display: inline-block;
+		width: 40%;
+		left: 20%;
+		bottom: 4vh;
+	}
+	.imagen{
+		width: 30vw;
+		display: inline-block;
+	}
+
+	iframe{
+		height: 70vh;
+	}
+
+}
